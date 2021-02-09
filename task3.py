@@ -12,3 +12,19 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+print("The equation format is ax + b = c.")
+print("\n")
+a = input("What is the value of a? ")
+a = float(a)
+b = input("What is the value of b? ")
+b = float(b)
+c = input("What is the value of c? ")
+c = float(c)
+print("\n")
+
+y = c - b
+x = y / a
+x = str(x)
+
+print("The value of x is " + x + ".")

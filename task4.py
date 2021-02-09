@@ -13,3 +13,16 @@
 #
 # Test output
 # input sides of 5 and 7 should give hypotenuse of 8.60232526704
+import math
+
+unit = input("What is the unit of mesument used? (example: cm, m, etc) ")
+unit = unit.strip()
+a = input("What is the length of one of the short sides? ")
+a = float(a)
+b = input("What is the length of the other short side? ")
+b = float(b)
+
+x = a**2 + b**2
+x = math.sqrt(x)
+x = str(x)
+print("The length of the hypotenous is " + x + unit + ".")
