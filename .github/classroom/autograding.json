@@ -23,7 +23,7 @@
     {
       "name": "Test 2a",
       "setup": "",
-      "run": "python3 task2a.py",
+      "run": "python3 task2.py",
       "input": "3",
       "output": "113.097",
       "comparison": "included",
@@ -54,7 +54,7 @@
       "name": "Task 3b",
       "setup": "",
       "run": "python3 task3.py",
-      "input": "2\r\n-1\r\n-4",
+      "input": "2\r\n-1\r\n4",
       "output": "2.5",
       "comparison": "included",
       "timeout": 1,
