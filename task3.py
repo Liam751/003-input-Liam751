@@ -23,8 +23,10 @@ c = input("What is the value of c? ")
 c = float(c)
 print("\n")
 
+
 y = c - b
 x = y / a
 x = str(x)
+
 
 print("The value of x is " + x + ".")
